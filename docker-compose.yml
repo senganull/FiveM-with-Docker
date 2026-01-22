@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  server:
+    image: spritsail/fivem:17000
+    container_name: "${COMPOSE_PROJECT_NAME}-server"
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    ports:
+      - "30120:30120"
+      - "30120:30120/udp"
+      - "40120:40120"
+    volumes:
+      - ./txData:/txData
+    environment:
+      - NO_DEFAULT_CONFIG=true
+    depends_on:
+      - db
+    networks:
+      - fivem-net
+
+    cpus: 4.0
+    mem_limit: 8g
+    mem_reservation: 2g
+  
+  db:
+    image: mariadb:10.11
+    container_name: "${COMPOSE_PROJECT_NAME}-db"
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: "${COMPOSE_PROJECT_NAME}"
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_ROOT_PASSWORD: ""
+    volumes:
+      - ./db-data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    networks:
+      - fivem-net
+
+networks:
+  fivem-net:
+    driver: bridge
