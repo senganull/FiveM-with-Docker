@@ -2,7 +2,8 @@
 # Docker Setup
 
 ## 前提環境
-- Docker のインストールがされていること (インストールがまだの場合は <a href="https://github.com/record-dev/docker-setup-recipe/blob/main/install-docker.md">こちら</a> で環境構築してください)
+1. Docker のインストールがされていること (インストールがまだの場合は <a href="https://github.com/record-dev/docker-setup-recipe/blob/main/install-docker.md">Docker ダウンロード</a> で環境構築してください)
+2. VSCODE のインストールができていること (インストールがまだの場合は <a href="https://code.visualstudio.com/download">VSCODE ダウンロード</a>)
 
 ## 構築手順
 
