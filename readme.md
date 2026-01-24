@@ -11,8 +11,8 @@
 <img width="648" height="148" alt="image" src="https://github.com/user-attachments/assets/572c813e-ef43-449b-8501-b14ddd219623" />
 
 
-### 2. 作成したフォルダ内でコマンドプロンプトを開く
-<img width="511" height="411" alt="image" src="https://github.com/user-attachments/assets/8384200f-a09a-49b0-bee9-4380dccd9d8e" />
+### 2. 作成したフォルダ内の空白の部分で [Shift 長押し] + [マウス右クリック] を押して Codeで開く
+<img width="594" height="529" alt="image" src="https://github.com/user-attachments/assets/61077880-3acf-4294-860e-cccf39d567b0" />
 
 
 ### 3. 以下のコマンドを実行する
