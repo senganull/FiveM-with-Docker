@@ -7,7 +7,7 @@
 
 ## 構築手順
 
-### 1. Zip をダウンロードして、作業フォルダ内で解凍
+### 1. Zip をダウンロード
 <img width="932" height="430" alt="image" src="https://github.com/user-attachments/assets/2c59b80b-cd37-4b3c-92d6-25fa92041cc4" />
 
 
