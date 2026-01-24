@@ -7,25 +7,15 @@
 
 ## 構築手順
 
-### 1. Zip をダウンロード
-<img width="932" height="430" alt="image" src="https://github.com/user-attachments/assets/2c59b80b-cd37-4b3c-92d6-25fa92041cc4" />
+### 1. Zip をダウンロードして解凍して、作業スペースに移動
+<img width="1245" height="593" alt="image" src="https://github.com/user-attachments/assets/cdb6a209-f2a7-46fa-bcbf-89ef888f00cb" />
+<img width="252" height="138" alt="image" src="https://github.com/user-attachments/assets/4a4fff4a-8424-4d59-9672-48f0cd056bb4" />
 
+### 2. 解凍したフォルダを [Shift 長押し] + [マウス右クリック] で押して Codeで開く
+<img width="411" height="334" alt="image" src="https://github.com/user-attachments/assets/90037bd2-0b7f-429f-85c6-2f202278d1bd" />
 
-### 2. docker-compose.yml ファイルを 作成したフォルダに挿入
-<img width="648" height="148" alt="image" src="https://github.com/user-attachments/assets/572c813e-ef43-449b-8501-b14ddd219623" />
-
-
-### 3. 作成したフォルダ内の空白の部分で [Shift 長押し] + [マウス右クリック] を押して Codeで開く
-<img width="594" height="529" alt="image" src="https://github.com/user-attachments/assets/61077880-3acf-4294-860e-cccf39d567b0" />
-
-
-### 4. [Ctrl] + [Shift] + [@] ボタンを同時押しでターミナルが表示後、 以下のコマンドを実行する
-```bash
-docker compose up -d
-```
-https://github.com/user-attachments/assets/c4fd1c77-76ad-46eb-ae46-2e284e5e1fbb
-
-
+### 3. 拡張機能のダウンロードポップを承認、docker-compose ファイルを右クリックで Compose up
+https://github.com/user-attachments/assets/47451804-dcc9-48db-907b-ae88125225dd
 
 ### 4. Docker Desktop にて Containers カテゴリで生成されているか確認する
 <img width="1237" height="598" alt="image" src="https://github.com/user-attachments/assets/705f6e17-0ddc-47ef-ab99-6249505c14c6" />
