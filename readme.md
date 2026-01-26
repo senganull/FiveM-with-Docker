@@ -18,6 +18,11 @@
 ### 2. 解凍したフォルダを [Shift 長押し] + [マウス右クリック] で押して Codeで開く
 <img width="411" height="334" alt="image" src="https://github.com/user-attachments/assets/90037bd2-0b7f-429f-85c6-2f202278d1bd" />
 
+## ⚠ 注意 ⚠
+Docker Desktop が起動している状態なのを確認してから 3. に移ってください
+
+<img width="224" height="242" alt="image" src="https://github.com/user-attachments/assets/4ada30d2-79d5-4d3c-b4a9-360d7a733340" />
+
 ### 3. 拡張機能のダウンロードポップを承認、docker-compose ファイルを右クリックで Compose up
 https://github.com/user-attachments/assets/47451804-dcc9-48db-907b-ae88125225dd
 
