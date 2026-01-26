@@ -1,6 +1,10 @@
 
 # FiveM スクリプト開発環境構築 解説
 
+## ⚠ 注意 ⚠
+このリポジトリを使った環境構築は、ローカル環境でのみ使ってください。
+本番環境での使用は厳禁です。
+
 ## 前提環境
 1. VSCODE のインストールされていること (インストールがまだの場合は <a href="https://github.com/record-dev/docker-setup-recipe/blob/main/install/vscode.md">VSCODE インストール方法</a> で環境構築してください)
 2. Docker のインストールされていること (インストールがまだの場合は <a href="https://github.com/record-dev/docker-setup-recipe/blob/main/install/docker.md">Docker インストール方法</a> で環境構築してください)
