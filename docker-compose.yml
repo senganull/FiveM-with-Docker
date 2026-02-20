@@ -1,7 +1,7 @@
 
 services:
   server:
-    image: spritsail/fivem:25770
+    image: seng4null/fivem:25770
     container_name: "${COMPOSE_PROJECT_NAME}-server"
     restart: unless-stopped
     stdin_open: true
